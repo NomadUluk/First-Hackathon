@@ -1,0 +1,350 @@
+.wireframe-1 {
+    align-items: flex-start;
+    background-color: 
+  #ffffff;
+    border: 1px none;
+    display: flex;
+    gap: 1844px;
+    height: 2510px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .hidden,
+  .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+  }
+  
+  .flex-col {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    min-height: 2494px;
+    width: 1440px;
+  }
+  
+  .overlap-group {
+    height: 755px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .pseudo {
+    height: 50px;
+    left: 109px;
+    position: absolute;
+    top: 40px;
+    width: 2px;
+  }
+  
+  .logo-t-sentralnyj-kampus-2png {
+    height: 83px;
+    left: 20px;
+    position: absolute;
+    top: 23px;
+    width: 83px;
+  }
+  
+  .image-3 {
+    height: 37px;
+    left: 119px;
+    position: absolute;
+    top: 46px;
+    width: 130px;
+  }
+  
+  .image-1 {
+    height: 42px;
+    left: 172px;
+    position: absolute;
+    top: 417px;
+    width: 903px;
+  }
+  
+  .novost-2 {
+    height: 755px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .image-removebg-preview-4 {
+    height: 415px;
+    left: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 399px;
+  }
+  
+  .image {
+    height: 34px;
+    left: 481px;
+    position: absolute;
+    top: 377px;
+    width: 520px;
+  }
+  
+  .group-8 {
+    height: 755px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .image-removebg-preview-3 {
+    height: 510px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 472px;
+  }
+  
+  .image-2 {
+    height: 87px;
+    left: 171px;
+    position: absolute;
+    top: 503px;
+    width: 705px;
+  }
+  
+  .group-21 {
+    height: 434px;
+    margin-top: 185px;
+    width: 1420px;
+  }
+  
+  .x6-3-x-4-h1 {
+    align-self: center;
+    height: 1043px;
+    margin-left: 75.66px;
+    margin-top: 77px;
+    width: 1177px;
+  }
+  
+  .image-removebg-preview-2 {
+    height: 431px;
+    margin-top: 2386px;
+    width: 399px;
+  }
+  /* Variables */
+
+:root {
+  --black-2: 
+rgba(0, 0, 0, 0.2);
+  --black: 
+rgba(0, 0, 0, 1);
+  --cape-cod: 
+rgba(66, 66, 66, 1);
+  --fuscous-gray: 
+rgba(85, 85, 85, 1);
+  --tall-poppy: 
+rgba(194, 38, 41, 1);
+  --cardinal: 
+rgba(196, 34, 40, 1);
+  --brick-red: 
+rgba(199, 51, 65, 1);
+  --celeste: 
+rgba(204, 204, 204, 1);
+  --alto: 
+rgba(217, 217, 217, 1);
+  --bon-jour: 
+rgba(224, 224, 224, 1);
+  --gallery: 
+rgba(238, 238, 238, 1);
+  --gallery-2: 
+rgba(240, 240, 240, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-xxxs: 14px;
+  --font-size-xxs: 15px;
+  --font-size-xs: 15.5px;
+  --font-size-s: 20px;
+  --font-size-m: 32px;
+  --font-size-l: 40px;
+  --font-size-xl: 48px;
+
+  --font-family-montserrat: "Montserrat";
+  --font-family-montserrat-black: "Montserrat-Black";
+  --font-family-montserrat-bold: "Montserrat-Bold";
+  --font-family-montserrat-medium: "Montserrat-Medium";
+  --font-family-montserrat-regular: "Montserrat-Regular";
+  --font-family-montserrat-semibold: "Montserrat-SemiBold";
+}
+
+/* Classes */
+
+.montserrat-black-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  font-style: normal;
+}
+.montserrat-medium-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-gallery-15-5px {
+  color: var(--gallery);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-medium-bon-jour-16px {
+  color: var(--bon-jour);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-normal-bon-jour-14px {
+  color: var(--bon-jour);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-black-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-black);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  font-style: normal;
+}
+.montserrat-semi-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-regular-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-black-250px {
+  color: var(--black-2);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 250px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-normal-white-40px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-regular-normal-white-40px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-black-40px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-regular-normal-bon-jour-14px {
+  color: var(--bon-jour);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-xxxs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-semi-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-semi-bold-gallery-15-5px {
+  color: var(--gallery);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-medium-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-semi-bold-black-40px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-normal-black-250px {
+  color: var(--black-2);
+  font-family: var(--font-family-montserrat);
+  font-size: 250px;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium-bon-jour-16px {
+  color: var(--bon-jour);
+  font-family: var(--font-family-montserrat);
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+}
